@@ -117,7 +117,7 @@ footer {
 
 footer a {
     color: var(--black);
-    transition: all .5s;
+    transition: all .3s;
 }
 
 footer a:hover {
@@ -125,5 +125,5 @@ footer a:hover {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.339);
     border-radius: 6px;
     color: var(--white);
-    transition: all .5s;
+    transition: all .3s;
 }
