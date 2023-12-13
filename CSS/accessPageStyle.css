@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+/* Fonts */
+@font-face {
+    font-family: 'Gotham';
+    src: url(/fonts/Gotham-Light.otf) format('opentype'), url(/fonts/GothamMedium.ttf) format('truetype'), url(/fonts/GothamBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* General */
 :root {
     --spotifyGreen: #1ED760;
@@ -13,6 +21,8 @@ body {
     padding: 0;
     background: var(--spotifyGreen);
     color: var(--black);
+    font-family: 'Gotham';
+    font-weight: normal;
     font-size: 30px;
 }
 
