@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* Fonts */
+@font-face {
+    font-family: 'Gotham';
+    src: url(/fonts/Gotham-Light.otf) format('opentype'), url(/fonts/GothamMedium.ttf) format('truetype'), url(/fonts/GothamBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General */
+:root {
+    --spotifyGreen: #1ED760;
+    --spotifyGrey: #121212;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--spotifyGreen);
+    color: var(--black);
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 30px;
+}
+
+/* Main */
+main {
+    margin: 20px;
+}
+
+img {
+    width: 500px;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+/* Section */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid var(--black);
+    border-radius: 30px;
+}
