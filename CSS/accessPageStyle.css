@@ -58,6 +58,9 @@ main {
 }
 
 .img-text p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin: 0;
     font-size: 60px;
 }
@@ -70,17 +73,47 @@ button {
     gap: 20px;
     height: 220px;
     width: 420px;
-    font-size: 50px;
+    font-size: 77px;
     background: var(--black);
     color: var(--spotifyGreen);
     border: none;
     border-radius: 30px;
-    transition: background .5s;
+    transition: all .5s;
 }
 
 button:hover {
     background: var(--spotifyGrey);
     box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.41);
     cursor: pointer;
-    transition: background .5s;
+    transition: all .5s;
+}
+
+/* Line */
+.line {
+    margin: 0 auto 40px;
+    border: 1px solid var(--black);
+    width: 1200px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer a {
+    color: var(--black);
+    transition: all .5s;
+}
+
+footer a:hover {
+    background: var(--spotifyGreen);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.339);
+    border-radius: 6px;
+    color: var(--white);
+    transition: all .5s;
 }
