@@ -92,3 +92,47 @@ section a:hover {
     text-align: center;
     font-weight: bold;
 }
+
+/* Button */
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    background: var(--black);
+    color: var(--spotifyGreen);
+    font-size: 25px;
+    transition: all .3s;
+}
+
+button:hover {
+    background: var(--spotifyGrey);
+    color: var(--spotifyGreen);
+    box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.41);
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.return-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.return-button a {
+    text-decoration: none;
+}
+
+.return-button p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
