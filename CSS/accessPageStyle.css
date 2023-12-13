@@ -88,7 +88,7 @@ button {
     color: var(--spotifyGreen);
     border: none;
     border-radius: 30px;
-    transition: all .5s;
+    transition: all .3s;
 }
 
 button:hover {
