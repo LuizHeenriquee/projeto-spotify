@@ -20,6 +20,10 @@ body {
     margin: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Header */
 header {
     text-align: center;
@@ -42,6 +46,7 @@ main {
     height: 800px;
 }
 
+/* Section img-text */
 .img-text {
     display: flex;
     flex-direction: column;
@@ -54,4 +59,27 @@ main {
 
 .img-text p {
     font-size: 60px;
+}
+
+/* Section access-button */
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 220px;
+    width: 420px;
+    font-size: 50px;
+    background: var(--black);
+    color: var(--spotifyGreen);
+    border: none;
+    border-radius: 30px;
+    transition: background .5s;
+}
+
+button:hover {
+    background: var(--spotifyGrey);
+    box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.41);
+    cursor: pointer;
+    transition: background .5s;
 }
