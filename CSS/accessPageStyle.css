@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* General */
+:root {
+    --spotifyGreen: #1ED760;
+    --spotifyGrey: #121212;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--spotifyGreen);
+    color: var(--black);
+    font-size: 30px;
+}
+
+.page {
+    margin: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 10px;
+}
+
+header span {
+    font-size: 70px;
+}
+
+/* Main */
+main {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-text img {
+    width: 400px;
+}
+
+.img-text p {
+    font-size: 60px;
+}
