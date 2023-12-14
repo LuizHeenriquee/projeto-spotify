@@ -4,7 +4,7 @@
 <p>
   Look at how the project is going so far!
 </p>
- <img src="https://github.com/LuizHeenriquee/projeto-spotify/assets/127858741/916c9b44-12a6-4cd6-a4ec-1048828a40ef">
+ <img src="https://github.com/LuizHeenriquee/projeto-spotify/assets/127858741/d44316b8-4c18-4cb7-b8ec-1affc22b8e88">
  <hr>
  <p>
    <strong>This project is being developed for educational purposes</strong>.
