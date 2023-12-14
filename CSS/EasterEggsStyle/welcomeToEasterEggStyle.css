@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* Fonts */
+@font-face {
+    font-family: 'Gotham';
+    src: url(/fonts/Gotham-Light.otf) format('opentype'), url(/fonts/GothamMedium.ttf) format('truetype'), url(/fonts/GothamBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General */
+:root {
+    --spotifyGreen: #1ED760;
+    --spotifyGrey: #121212;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--spotifyGreen);
+    color: var(--black);
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 30px;
+}
+
+/* Main */
+main {
+    margin: 20px;
+}
+
+main h2 {
+    text-align: center;
+    margin: 60px 0 40px;
+}
+
+/* Img */
+img {
+    width: 500px;
+}
+
+/* .congrats-message */
+.congrats-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.congrats-message h1, p {
+    margin: 0;
+}
+
+/* #songs */
+#spotify-songs {
+    margin: 100px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.songs {
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
