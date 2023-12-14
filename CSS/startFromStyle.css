@@ -112,7 +112,6 @@ button:hover {
     background: var(--spotifyGrey);
     color: var(--spotifyGreen);
     box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.41);
-
     cursor: pointer;
     transition: all .3s;
 }
