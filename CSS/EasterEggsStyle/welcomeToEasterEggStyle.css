@@ -67,3 +67,39 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Buttons */
+#buttons {
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.button {
+    height: 150px;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    background: var(--black);
+    color: var(--spotifyGreen);
+    transition: all .3s;
+}
+
+.button:hover {
+    background: var(--spotifyGrey);
+    color: var(--spotifyGreen);
+    box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.41);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+}
