@@ -34,6 +34,14 @@ a {
     text-decoration: none;
 }
 
+.easter-egg:hover {
+    background: var(--spotifyGreen);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.339);
+    border-radius: 6px;
+    color: var(--white);
+    transition: all .3s;
+}
+
 /* Header */
 header {
     text-align: center;
@@ -45,6 +53,11 @@ header {
 
 header span {
     font-size: 70px;
+}
+
+header span a {
+    color: var(--black);
+    transition: all .3s;
 }
 
 /* Main */
@@ -117,13 +130,5 @@ footer {
 
 footer a {
     color: var(--black);
-    transition: all .3s;
-}
-
-footer a:hover {
-    background: var(--spotifyGreen);
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.339);
-    border-radius: 6px;
-    color: var(--white);
     transition: all .3s;
 }
