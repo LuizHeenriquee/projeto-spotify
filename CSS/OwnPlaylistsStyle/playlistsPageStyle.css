@@ -24,6 +24,7 @@ body {
     font-family: 'Gotham';
     font-weight: normal;
     font-size: 30px;
+    box-sizing: border-box;
 }
 
 /* Main */
@@ -91,9 +92,18 @@ nav ul li {
     margin: 20px 0 0;
 }
 
-/* h2 {
-    text-align: center;
-    font-size: 70px;
-    margin: 15px 0 0;
-} */
+#playlists-space {
+    background: linear-gradient(to bottom, var(--black), var(--spotifyGrey));
+    border-radius: 0 0 20px 20px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.playlist {
+    border: 1px solid red;
+    height: 500px;
+    width: 800px;
+}
