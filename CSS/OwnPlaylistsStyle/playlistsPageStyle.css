@@ -25,3 +25,75 @@ body {
     font-weight: normal;
     font-size: 30px;
 }
+
+/* Main */
+main {
+    margin: 20px;
+}
+
+img {
+    width: 500px;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    border: 1px solid var(--black);
+    border-radius: 30px;
+    padding: 12px;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+nav ul a:hover {
+    background: var(--black);
+    color: var(--spotifyGreen);
+    transition: all .3s;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Line */
+.line {
+    border: 1px solid var(--white);
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+/* h2 {
+    text-align: center;
+    font-size: 70px;
+    margin: 15px 0 0;
+} */
+
