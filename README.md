@@ -22,7 +22,7 @@
  <br>
  
  <p>
-   This project, so far, uses HTML, CSS and the song and playlist codes that Spotify offers through its application. My objective is to test my skills by working with technologies that I like and am learning.
+   This project, so far, uses HTML, CSS and songs and playlist codes that Spotify offers through its application. My objective is to test my skills by working with technologies that I like and am learning.
  </p>
 
  <br>
