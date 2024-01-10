@@ -91,19 +91,47 @@ nav ul li {
     width: 100%;
     margin: 20px 0 0;
 }
-
+/* Playlists Space */
 #playlists-space {
     background: linear-gradient(to bottom, var(--black), var(--spotifyGrey));
     border-radius: 0 0 20px 20px;
     height: 1000px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+#playlists-space a {
+    text-decoration: none;
+}
+
 .playlist {
-    border: 1px solid red;
-    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    border: 1px solid var(--white);
+    border-radius: 30px;
+    height: 150px;
     width: 800px;
+    transition: all .3s;
+}
+
+.playlist:hover {
+    background: var(--spotifyGreen);
+    box-shadow: 3px 3px 6px #1ed75f4d;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.playlist img {
+    width: 130px;
+}
+
+.playlist p {
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
 }
